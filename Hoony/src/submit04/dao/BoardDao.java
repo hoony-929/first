@@ -141,6 +141,7 @@ public class BoardDao {
 		query.append("	 , board_date			");
 		query.append("from						");
 		query.append("	   board				");
+		query.append("order by 1					");
 
 
 		PreparedStatement ps = conn.prepareStatement(query.toString());
@@ -186,6 +187,7 @@ public class BoardDao {
 		query.append("		board				");
 		query.append("WHERE 1=1					");
 		query.append("	AND	board_num = ?		");
+		query.append("	order by 1				");
 		
 		PreparedStatement ps = conn.prepareStatement(query.toString());
 		ps.setInt(1, no);
