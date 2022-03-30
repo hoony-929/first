@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_231"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/home/pc54/javaLibrary/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/pc54/Downloads/JAVA/java_jar/ojdbc6-11.2.0.4.jar"/>
+	<classpathentry kind="lib" path="/home/pc54/Downloads/JAVA/java_jar/next-util-jh.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
