@@ -80,9 +80,7 @@ public class Submit04BoardMain {
 										service.listBaord(no);
 										
 										ArrayList<BoardVO> boardList1 = service.boardList();
-										for (int i = 0; i < boardList1.size(); i++) {
-											System.out.println(boardList1.get(i));
-										}
+										
 									} else if (select == 3) {
 										System.out.println("로그아웃 합니다.");
 										break;
